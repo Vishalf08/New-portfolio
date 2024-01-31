@@ -4,6 +4,26 @@
       font-family:cursive;
 }
 
+body {
+      font-size: 16px;
+  }
+  
+@media (max-width: 600px) {
+      body {
+          font-size: 14px;
+      }
+  }
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+  
+.item {
+      width: 100%; /* Each item takes full width on smaller screens */
+}
+  
+  
 .hero{
       position: relative;
       width: 100%;
