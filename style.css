@@ -7,7 +7,9 @@
 @media screen and (max-device-width: 600px) {
         body {
             display: none;
-        }      
+      
+        }
+        
 }
   
 .hero{
@@ -59,8 +61,19 @@ nav ul li a{
 ul li{
       display: inline;
       margin: 1%;
-      margin-left: 4%;
+      margin-left: 1%;
       
+}
+.logo {
+      margin-top: 10% ;
+}
+.logo ul li a {
+      display: inline;
+      margin-left: 4%;
+      width: 1%;
+}
+.logo ul li a img{
+      width:8%
 }
 img{
       width: 15px;
@@ -263,4 +276,8 @@ margin-left: 95px;
       color: #f1f1f1;
       margin-left: 165px;
       font-size: 20px;
+}
+footer{
+      font-size: larger;
+      
 }
